@@ -38,7 +38,7 @@ public class PhotographerTest{
     photographer.addCamera(analogCamera);
     photographer.addCamera(digitalCamera);
     String details = photographer.printDetails();
-    assertEquals("AC, So Hipster.DC, Much Pixels.", details);
+    assertEquals("AC, So Hipster. DC, Much Pixels. ", details);
   }
 
 
